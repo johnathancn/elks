@@ -191,7 +191,7 @@ endif
 ifdef CONFIG_CHAR_DEV_CGATEXT
 	$(MKDEV) /dev/cgatext	c 10 0
 endif
-
+	$(MKDEV) /dev/hellodev	c 11 0
 ##############################################################################
 # SATA / SCSI disks. These are not yet supported.
 # And will never be on IA16 platform (CPU too slow).

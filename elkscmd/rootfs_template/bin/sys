@@ -38,6 +38,7 @@ create_dev_dir()
 	chmod 0600 $MNT/dev/console
 	mknod $MNT/dev/tty	c 4 255
 	chmod 0666 $MNT/dev/tty
+	mknod $MNT/dev/hellodev	c 11 0
 	if test "$small" = "1"; then return; fi
 
 	mknod $MNT/dev/hdb	b 3 32

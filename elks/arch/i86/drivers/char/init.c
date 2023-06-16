@@ -31,4 +31,5 @@ void chr_dev_init(void)
 #ifdef CONFIG_PSEUDO_TTY    
     pty_init();    
 #endif
+    hello_init();
 }

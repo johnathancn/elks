@@ -7,7 +7,7 @@
 
 /* limits */
 
-#define MAX_CHRDEV 11
+#define MAX_CHRDEV 12
 #define MAX_BLKDEV  7
 
 /*

@@ -35,7 +35,7 @@ include $(BASEDIR)/Makefile-rules
 #########################################################################
 # Objects to be compiled.
 
-OBJS  = init.o mem.o ntty.o meta.o tcpdev.o pty.o lp.o
+OBJS  = hellodev.o init.o mem.o ntty.o meta.o tcpdev.o pty.o lp.o
 
 ifeq ($(CONFIG_ETH), y)
     OBJS += eth.o
